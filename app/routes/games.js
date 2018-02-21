@@ -7,6 +7,7 @@ let game = require('../models/games');
 /* GET games list page. READ*/
 router.get('/',(req,res)=>{
 game.find((err,games)=>{
+    console.log(games);
 if(err){
     return console.error(err);
 } else {

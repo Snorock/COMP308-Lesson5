@@ -1,4 +1,4 @@
 module.exports = {
 //local mongo db deployment
-"URI": "mongodb://localhost/"
+"URI": "mongodb://localhost/games"
 }
